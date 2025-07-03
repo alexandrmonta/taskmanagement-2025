@@ -1,0 +1,11 @@
+name: Tâche technique
+description: Refacto, config, tests…
+title: "[Tech] "
+labels: [tech]
+body:
+  - type: textarea
+    id: todo
+    attributes:
+      label: Travail à effectuer
+      render: markdown
+      validations: { required: true }
