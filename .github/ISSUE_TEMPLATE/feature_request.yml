@@ -1,0 +1,17 @@
+name: Feature
+description: Proposer une nouvelle fonctionnalité
+title: "[Feature] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Besoin
+      placeholder: Quel problème ça résout ?
+      render: markdown
+      validations: { required: true }
+  - type: input
+    id: estimation
+    attributes:
+      label: Estimation (pts)
+      placeholder: 1 | 2 | 3 | 5
