@@ -1,0 +1,8 @@
+#Front
+/frontend/ @alexandrmonta
+
+#Back & tests
+/backend/ @alexandrmonta
+
+#CI/CD, workflow
+.github/ @alexandrmonta
